@@ -31,11 +31,11 @@ os.makedirs("render", exist_ok=True)
 # ###########################################################
 
 # load the EM solution (VTK file)
-solution = pv.read("mesh/solution.vtu")
+solution = pv.read("mesh_data/solution.vtu")
 
 # load the STL geometry
-coil = pv.read("mesh/coil.stl")
-core = pv.read("mesh/core.stl")
+coil = pv.read("mesh_data/coil.stl")
+core = pv.read("mesh_data/core.stl")
 
 # scale the units
 coil = coil.scale(0.001)
