@@ -1,0 +1,10 @@
+# Definition of the virtual environment.
+# Tested with Python 3.12.3 on Linux x86/64.
+#
+# Thomas Guillod - Dartmouth College
+# Mozilla Public License Version 2.0
+
+numpy==2.2.6
+matplotlib==3.10.3
+pyvista==0.45.2
+pillow==11.2.1
