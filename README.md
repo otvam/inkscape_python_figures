@@ -26,7 +26,7 @@ The following open-source tools are used:
 * Main Files
   * [slides.pdf](slides.pdf) - Slides of the tutorial (CC BY-ND 4.0)
   * [requirements.txt](requirements.txt) - List of the used Python packages.
-  * [export_inkscape.sh](export_inkscape.sh) - Script to export PDF/PNG from Inkscape.
+  * [export_inkscape.sh](export_inkscape.sh) - Export PDF/PNG from Inkscape.
   * [utils_mpl.py](utils_mpl.py) - Utils functions for Matplotlib plots.
   * [utils_pv.py](utils_pv.py) - Utils functions for PyVista plots.
 * Python Plots
