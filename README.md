@@ -1,16 +1,25 @@
-# Open-Source Workflow for Scientific Paper Figures
+# Workflow for Scientific Paper Figures
 
 ## Summary
 
-A **tutorial** for creating **publication-quality figures** with **open-source tools**.
-A special focus on **electrical engineering** / power electronics is taken for the examples.
+A **tutorial** for creating **publication-quality figures** with **open-source tools**:
+* Focus on **electrical engineering / power electronics**
+* **Schematics / diagrams** with Inkscape
+* **Various plots** with Matplotlib
+* **Mesh/FEM plots** with PyVista
 
-The following open-source tools tools are used:
-* **Inkscape** for creating / assembling figures
-* **GIMP** for handling photos / images
+The following open-source tools are used:
+* **Inkscape** for creating and assembling figures
+* **GIMP** for handling photos and images
 * **LaTeX** for typesetting equations
 * **Python / Matplotlib** for plots
-* **Python / PyVista** for meshes
+* **Python / PyVista** for mesh/FEM plots
+* **Paderborn / LEA** library for the symbols
+
+## Some Examples
+
+![Schemas](img_data/schemas.png)
+![Plots](img_data/plots.png)
 
 ## Repository Description
 
@@ -26,7 +35,7 @@ The following open-source tools tools are used:
   * [plot_cmap.py](plot_cmap.py) - Scatter plot and colormap.
   * [plot_mesh.py](plot_mesh.py) - 3D/2D plots of EM simulation.
 * Folders
-  * [fig_schemas](fig_schemas) - Examples of Inkscape Schematics / Diagrams.
+  * [fig_schemas](fig_schemas) - Examples of Inkscape schematics / diagrams.
   * [fig_plots](fig_plots) - Examples of Inkscape plots (with Python).
   * [mesh_data](mesh_data) - EM simulation results for the examples.
 
