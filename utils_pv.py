@@ -11,6 +11,7 @@ __license__ = "Mozilla Public License Version 2.0"
 import pyvista as pv
 import PIL.Image as img
 
+
 def set_global():
     """
     Set the global PyVista options.

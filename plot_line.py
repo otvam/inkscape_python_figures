@@ -28,8 +28,8 @@ os.makedirs("render", exist_ok=True)
 
 # define dummy data
 x = np.linspace(0, 2, 11)
-y_1 = 1e4 + 0.5e6 * x ** 2
-y_2 = 1e4 + 0.5e6 * x ** 4
+y_1 = 1e4 + 0.5e6 * x**2
+y_2 = 1e4 + 0.5e6 * x**4
 
 # get the axis ticks
 xticks = np.linspace(0.0, 2.0, 4)
@@ -55,6 +55,7 @@ plt.plot(x, y_2, "-ob", ms=3.0, lw=1.5, label="label 2")
 plt.xscale("linear")
 plt.yscale("log")
 
+
 # custom format for y-axis
 def custom_format(x, _):
     out = f"10^{abs(np.log10(x)):.0f}"
@@ -62,6 +63,7 @@ def custom_format(x, _):
         return f"bnd / ${out}$"
     else:
         return f"out / ${out}$"
+
 
 # set the x-axis limit and format
 utils_mpl.set_x_axis(bnd=xticks, add_offset=0.1)

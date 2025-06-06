@@ -23,14 +23,14 @@ def set_global():
     # set the font family
     plt.rcParams["font.size"] = 9.0
     plt.rcParams["font.family"] = "Times New Roman"
-    plt.rcParams["mathtext.default"] = 'regular'
+    plt.rcParams["mathtext.default"] = "regular"
 
     # set the axes parameters
     plt.rcParams["axes.grid"] = True
     plt.rcParams["axes.linewidth"] = 1.0
     plt.rcParams["axes.labelsize"] = 9.0
     plt.rcParams["axes.titlesize"] = 10.0
-    plt.rcParams['axes.labelpad'] = 8.0
+    plt.rcParams["axes.labelpad"] = 8.0
     plt.rcParams["axes.labelweight"] = "bold"
     plt.rcParams["axes.titleweight"] = "bold"
 
@@ -61,8 +61,8 @@ def get_bnd(bnd=None, add_offset=0.0, add_fact=0.0):
     """
 
     # set the bounds
-    v_min = (np.min(bnd)-add_offset)/(1+add_fact)
-    v_max = (np.max(bnd)+add_offset)*(1+add_fact)
+    v_min = (np.min(bnd) - add_offset) / (1 + add_fact)
+    v_max = (np.max(bnd) + add_offset) * (1 + add_fact)
 
     return v_min, v_max
 
@@ -154,7 +154,6 @@ def get_fig_clone(fig, ax):
         - A raster plot with the large payload (contour, scatter, etc.)
     """
 
-
     # get the size of the axis of the vector figure
     bbox = ax.get_window_extent()
     width = bbox.width / fig.dpi
@@ -200,7 +199,6 @@ def save_svg(fig, filename):
 
     # save the plot for Inkscape
     fig.savefig(filename, transparent=True)
-
 
 
 def save_png(fig, filename, dpi=100):

@@ -62,7 +62,7 @@ utils_mpl.set_y_axis(bnd=yticks, add_offset=0.1)
 utils_mpl.set_format(ax.yaxis, ticks=yticks, fmt="${x:.2f}$")
 
 # set global properties
-cb.set_label('c-axis (unit)')
+cb.set_label("c-axis (unit)")
 ax.set_xlabel("x-axis (unit)")
 ax.set_ylabel("y-axis (unit)")
 ax.set_title("Plot Title")
