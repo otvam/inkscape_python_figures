@@ -29,9 +29,9 @@ utils_mpl.set_global()
 os.makedirs("render", exist_ok=True)
 
 # define dummy data
-x = np.random.rand(10000)
-y = np.random.rand(10000)
-z = np.random.rand(10000)
+x = np.random.rand(100000)
+y = np.random.rand(100000)
+z = np.random.rand(100000)
 
 # define the colormap
 cmap = "magma"
