@@ -34,7 +34,7 @@ y = np.random.rand(100000)
 z = np.random.rand(100000)
 
 # define the colormap
-cmap = "magma"
+cmap = "viridis"
 
 # get the colormap and axis ticks
 cticks = np.linspace(0.0, 1.0, 5)
