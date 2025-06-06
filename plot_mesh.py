@@ -31,7 +31,7 @@ os.makedirs("render", exist_ok=True)
 # ###########################################################
 
 # load the EM solution (VTK file)
-solution = pv.read("mesh_data/solution.vtu")
+solution = pv.read("mesh_data/solution.vtk")
 
 # load the STL geometry
 coil = pv.read("mesh_data/coil.stl")
