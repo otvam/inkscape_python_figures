@@ -2,9 +2,6 @@
 Example for a Matplotlib plot with the following features:
     - Logarithmic axis.
     - Custom axis ticks.
-
-The EM problem solution has been obtained with PyPEEC (https://pypeec.otvam.ch).
-PyPEEC is a 3D quasi-magnetostatic PEEC solver (voxel-based and FFT-accelerated).
 """
 
 __author__ = "Thomas Guillod"
