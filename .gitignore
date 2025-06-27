@@ -19,6 +19,9 @@ export/
 scratch/
 temp/
 
+# exclude Jupyter checkpoints
+.ipynb_checkpoints/
+
 # exclude the IDE folders
 .vscode/
 .idea/
