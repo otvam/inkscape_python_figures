@@ -34,6 +34,7 @@ The following open-source tools are used:
   * [plot_error.py](plot_error.py) - Error bars and error fill area.
   * [plot_cmap.py](plot_cmap.py) - Scatter plot with a colormap.
   * [plot_mesh.py](plot_mesh.py) - 3D/2D plots of EM simulations.
+  * [plot_notebook.ipynb](plot_cmap.py) - Plot with Jupyter notebook.
 * Folders
   * [fig_schemas](fig_schemas) - Examples of Inkscape schematics / diagrams.
   * [fig_plots](fig_plots) - Examples of Inkscape plots (with Python).
