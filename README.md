@@ -24,7 +24,8 @@ The following open-source tools are used:
 ## Repository Description
 
 * Main Files
-  * [slides.pdf](slides.pdf) - Slides of the tutorial (CC BY-ND 4.0)
+  * [slides.pdf](slides.pdf) - Slides (PDF) of the tutorial (CC BY-ND 4.0)
+  * [slides.odp](slides.odp) - Slides (ODP) of the tutorial (CC BY-ND 4.0)
   * [requirements.txt](requirements.txt) - List of the used Python packages.
   * [export_inkscape.sh](export_inkscape.sh) - Export PDF/PNG from Inkscape.
   * [utils_mpl.py](utils_mpl.py) - Utils functions for Matplotlib plots.
